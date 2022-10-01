@@ -1,6 +1,7 @@
 body {
     background-color: black;
     padding-left: 16px;
+    padding-top: 16px;
 }
 
 input#search {
