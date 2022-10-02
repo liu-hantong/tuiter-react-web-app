@@ -1,0 +1,114 @@
+.wd-bookmarks-body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+}
+
+
+.wd-bookmarks-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-bookmarks-main {
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-bookmarks-title {
+    color: white;
+    font-size: 27px;
+}
+
+.wd-bookmarks-user {
+    color: #6e767d;
+    font-size: 19px;
+}
+
+.wd-profile {
+    float: left;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.wd-bookmark-whole {
+    height: 608px;
+}
+
+.wd-bookmarks-content {
+    float: left;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+.wd-bookmarks-poster-name {
+    color: white;
+    float: left;
+    font-size: 18px;
+}
+
+.wd-bookmarks-poster-id-time {
+    color: #6e767d;
+    float: left;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.wd-bookmark-content {
+    color: white;
+    font-size: 17px;
+    margin-left: 77px;
+    margin-top: 8px;
+    width: 504px;
+}
+
+
+.wd-bookmark-image {
+    width: 504px;
+    height: 264px;
+    margin-top: 12px;
+    margin-left: 77px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wd-bookmark-short {
+    margin-top: -4px;
+    margin-left: 77px;
+    width: 480px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 12px 12px 12px 12px;
+}
+
+.wd-bookmark-short-title {
+    color: white;
+}
+
+.wd-bookmark-short-content {
+    color: #6e767d;
+    margin-top: 5px;
+}
+
+.wd-bookmark-icons {
+    margin-left: 79px;
+    margin-top: 7px;
+    width: 600px;
+}
+
+.wd-bookmark-icon {
+    color: #6e767d;
+    float: left;
+    width: 130px;
+}
+
+.wd-bookmark-heart {
+    color: red;
+    float: left;
+    width: 130px;
+    padding-top: 4px;
+}
