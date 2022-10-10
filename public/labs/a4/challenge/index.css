@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.inside-title {
+    color: white;
+    margin-top: -15%;
+    margin-left: 3%;
+}
+
+.inside-description {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 3%;
+}
