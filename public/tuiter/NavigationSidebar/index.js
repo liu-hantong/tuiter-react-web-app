@@ -2,11 +2,11 @@ const NavigationSidebar = (activeTab) => {
     return(`
    <div class="list-group">
      <a class="list-group-item" href="/"><i class="fab fa-twitter"></i></a>
-            <a href="../Home" class="list-group-item list-group-item-action ${activeTab === 'Home' ? "active" : ""}">
+            <a href="../Home/index.html" class="list-group-item list-group-item-action ${activeTab === 'Home' ? "active" : ""}">
                 <div class="float-start"><i class="fas fa-home"></i></div>
                 <div class="d-none float-start d-xl-block">&nbspHome</i></div>
             </a>
-            <a href="../Explore" class="list-group-item list-group-item-action ${activeTab === 'Explore' ? "active" : ""}">
+            <a href="../Explore/index.html" class="list-group-item list-group-item-action ${activeTab === 'Explore' ? "active" : ""}">
                 <div class="float-start"><i class="fas fa-hashtag"></i></div>
                 <div class="d-none float-start d-xl-block">&nbspExplore</i></div>
             </a>
