@@ -1,259 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Explore</title>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../vendors/fontawesome-free-6.2.0-web/css/all.css" rel="stylesheet"/>
-    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fap/css/all.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Explore screen</title>
 </head>
 <body>
-<div class="row justify-content-md-center mt-2">
-    <div class="col-1 col-xl-2 bg-white">
-        <div class="list-group">
-            <i class="fab fa-twitter fa-2x list-group-item list-group-item-action"></i>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-home"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspHome</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action active">
-                <div class="float-start"><i class="fas fa-hashtag"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspExplore</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-bell"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspNotifications</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-envelope"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspMessages</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-bookmark"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspBookmarks</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-list"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspLists</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-user"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspProfile</i></div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="float-start"><i class="fas fa-comment-dots"></i></div>
-                <div class="d-none float-start d-xl-block">&nbspMore</i></div>
-            </a>
-            <button type="submit" class="btn btn-primary rounded-pill mt-1">Tweet</button>
-        </div>
-    </div>
-    <div class="col-7 col-lg-4 bg-white">
-        <div class="row">
-            <div class="col-11">
-                <div class="input-group rounded-pill border border-secondary border-2">
-                    <span class="input-group-append">
-                        <button style="pointer-events: none;" class="btn bg-white rounded-circle" type="button">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </span>
-                    <input class="form-control border-0 me-3" type="text" placeholder="Search">
-                </div>
-            </div>
-            <div class="col-1">
-                <div class="text-center">
-                    <i class="fas fa-gear fa-2x mt-1" style="color: blue;"></i>
-                </div>
-            </div>
-        </div>
-        <div class="mt-2">
-        <ul class="nav nav-tabs nav-fill">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">For you</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Trending</a>
-            </li>
-            <li class="d-none d-md-block nav-item">
-                <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="d-none d-xl-block nav-item">
-                <a class="nav-link" href="#">Sports</a>
-            </li>
-            <li class="d-none d-xxl-block nav-item">
-                <a class="nav-link" href="#">Entertainment</a>
-            </li>
-        </ul>
-        </div>
-        <div class="mt-2">
-            <img src="../../images/spaceship.webp" width="100%">
-            <div class="inside">SpaceX's Spaceship</div>
-        </div>
-        <div>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col">
-                        <div class="text-muted">Web Development</div>
-                        <div class="text-dark fw-bold float-lg-start">ReactJS&nbsp</div>
-                        <div class="float-lg-start"><i class="fa fa-check border rounded-pill"></i></div>
-                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>
-                        <div class="fw-bold"> React is a component based front end library that makes it very easy to build Single Page Applications or SPAs </div>
-                    </div>
-                    <div class="col">
-                        <img class="float-end" src="../../images/react.png" width="130" height="120">
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="text-dark fw-bold float-lg-start">JavaScript&nbsp</div>
-                        <div class="float-lg-start"><i class="fa fa-check border rounded-pill"></i></div>
-                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>
-                        <div class="fw-bold"> JavaScript is a programming language that can run both web browsers and desktops </div>
-                        <div class="text-muted"> 123k Tweets </div>
-                    </div>
-                    <div class="col">
-                        <img class="float-end" src="../../images/js.png" width="120" height="120">
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col">
-                        <div class="text-muted"> Web Development </div>
-                        <div class="text-dark fw-bold">jQuery&nbsp</div>
-                        <div class="text-muted"> 123k Tweets </div>
-                    </div>
-                    <div class="col">
-                        <img class="float-end" src="../../images/jQuery.png" width="120" height="120">
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col">
-                        <div class="text-muted"> Web Development </div>
-                        <div class="text-dark fw-bold float-lg-start">NodeJS&nbsp</div>
-                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>
-                        <div class="text-muted"> 123k Tweets </div>
-                    </div>
-                    <div class="col">
-                        <img class="float-end" src="../../images/nodejs.png" width="100" height="120">
-                    </div>
-                </div>
-            </li>
-        </ul>
-        </div>
-    </div>
-    <div class="d-none col-lg-3 d-lg-block bg-white">
-        <ul class="list-group">
-            <li class="list-group-item fw-bold">
-                Who to Follow
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/java.png" width="45px">
-                    </div>
-                    <div class="col">
-                        <div class="float-start fw-bold">
-                            Java&nbsp
-                        </div>
-                        <div class="float-start">
-                            <i class="fa fa-check border rounded-pill"></i>
-                        </div>
-                        <br>
-                        @java
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/rs.webp" width="45px" class="rounded-circle">
-                    </div>
-                    <div class="col">
-                        <div class="float-start fw-bold">
-                            Relativity Space&nbsp
-                        </div>
-                        <div class="float-start">
-                            <i class="fa fa-check border rounded-pill"></i>
-                        </div>
-                        <br>
-                        @relativityspace
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/vg.svg" width="45px">
-                    </div>
-                    <div class="col">
-                        <div class="float-start fw-bold">
-                            Virgin Galactic&nbsp
-                        </div>
-                        <div class="float-start">
-                            <i class="fa fa-check border rounded-pill"></i>
-                        </div>
-                        <br>
-                        @virgingalactic
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/nasa.webp" width="45px">
-                    </div>
-                    <div class="col">
-                        <div class="float-start fw-bold">
-                            NASA&nbsp
-                        </div>
-                        <div class="float-start">
-                            <i class="fa fa-check border rounded-pill"></i>
-                        </div>
-                        <br>
-                        @NASA
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-2">
-                        <img class="rounded-circle" src="../../images/tesla.jpeg" width="45px">
-                    </div>
-                    <div class="col">
-                        <div class="float-start fw-bold">
-                            Tesla&nbsp
-                        </div>
-                        <div class="float-start">
-                            <i class="fa fa-check border rounded-pill"></i>
-                        </div>
-                        <br>
-                        @Tesla
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
+
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
 
 </body>
 </html>
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Explore</title>-->
+<!--    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>-->
+<!--    <link href="../../vendors/fontawesome-free-6.2.0-web/css/all.css" rel="stylesheet"/>-->
+<!--    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>-->
+<!--    <link href="index.css" rel="stylesheet"/>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="row justify-content-md-center mt-2">-->
+<!--    <div class="col-1 col-xl-2 bg-white">-->
+<!--        <div class="list-group">-->
+<!--            <i class="fab fa-twitter fa-2x list-group-item list-group-item-action"></i>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-home"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspHome</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action active">-->
+<!--                <div class="float-start"><i class="fas fa-hashtag"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspExplore</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-bell"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspNotifications</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-envelope"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspMessages</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-bookmark"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspBookmarks</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-list"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspLists</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-user"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspProfile</i></div>-->
+<!--            </a>-->
+<!--            <a href="#" class="list-group-item list-group-item-action">-->
+<!--                <div class="float-start"><i class="fas fa-comment-dots"></i></div>-->
+<!--                <div class="d-none float-start d-xl-block">&nbspMore</i></div>-->
+<!--            </a>-->
+<!--            <button type="submit" class="btn btn-primary rounded-pill mt-1">Tweet</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="col-7 col-lg-4 bg-white">-->
+<!--        <div class="row">-->
+<!--            <div class="col-11">-->
+<!--                <div class="input-group rounded-pill border border-secondary border-2">-->
+<!--                    <span class="input-group-append">-->
+<!--                        <button style="pointer-events: none;" class="btn bg-white rounded-circle" type="button">-->
+<!--                            <i class="fa fa-search"></i>-->
+<!--                        </button>-->
+<!--                    </span>-->
+<!--                    <input class="form-control border-0 me-3" type="text" placeholder="Search">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-1">-->
+<!--                <div class="text-center">-->
+<!--                    <i class="fas fa-gear fa-2x mt-1" style="color: blue;"></i>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="mt-2">-->
+<!--        <ul class="nav nav-tabs nav-fill">-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active" href="#">For you</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#">Trending</a>-->
+<!--            </li>-->
+<!--            <li class="d-none d-md-block nav-item">-->
+<!--                <a class="nav-link" href="#">News</a>-->
+<!--            </li>-->
+<!--            <li class="d-none d-xl-block nav-item">-->
+<!--                <a class="nav-link" href="#">Sports</a>-->
+<!--            </li>-->
+<!--            <li class="d-none d-xxl-block nav-item">-->
+<!--                <a class="nav-link" href="#">Entertainment</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--        </div>-->
+<!--        <div class="mt-2">-->
+<!--            <img src="../../images/spaceship.webp" width="100%">-->
+<!--            <div class="inside">SpaceX's Spaceship</div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--        <ul class="list-group">-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
+<!--                        <div class="text-muted">Web Development</div>-->
+<!--                        <div class="text-dark fw-bold float-lg-start">ReactJS&nbsp</div>-->
+<!--                        <div class="float-lg-start"><i class="fa fa-check border rounded-pill"></i></div>-->
+<!--                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>-->
+<!--                        <div class="fw-bold"> React is a component based front end library that makes it very easy to build Single Page Applications or SPAs </div>-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img class="float-end" src="../../images/react.png" width="130" height="120">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-8">-->
+<!--                        <div class="text-dark fw-bold float-lg-start">JavaScript&nbsp</div>-->
+<!--                        <div class="float-lg-start"><i class="fa fa-check border rounded-pill"></i></div>-->
+<!--                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>-->
+<!--                        <div class="fw-bold"> JavaScript is a programming language that can run both web browsers and desktops </div>-->
+<!--                        <div class="text-muted"> 123k Tweets </div>-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img class="float-end" src="../../images/js.png" width="120" height="120">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
+<!--                        <div class="text-muted"> Web Development </div>-->
+<!--                        <div class="text-dark fw-bold">jQuery&nbsp</div>-->
+<!--                        <div class="text-muted"> 123k Tweets </div>-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img class="float-end" src="../../images/jQuery.png" width="120" height="120">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
+<!--                        <div class="text-muted"> Web Development </div>-->
+<!--                        <div class="text-dark fw-bold float-lg-start">NodeJS&nbsp</div>-->
+<!--                        <div class="float-lg-start text-muted">&nbsp-&nbsp2h</div><br>-->
+<!--                        <div class="text-muted"> 123k Tweets </div>-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img class="float-end" src="../../images/nodejs.png" width="100" height="120">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="d-none col-lg-3 d-lg-block bg-white">-->
+<!--        <ul class="list-group">-->
+<!--            <li class="list-group-item fw-bold">-->
+<!--                Who to Follow-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-2">-->
+<!--                        <img src="../../images/java.png" width="45px">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <div class="float-start fw-bold">-->
+<!--                            Java&nbsp-->
+<!--                        </div>-->
+<!--                        <div class="float-start">-->
+<!--                            <i class="fa fa-check border rounded-pill"></i>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        @java-->
+<!--                    </div>-->
+<!--                    <div class="col-3">-->
+<!--                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-2">-->
+<!--                        <img src="../../images/rs.webp" width="45px" class="rounded-circle">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <div class="float-start fw-bold">-->
+<!--                            Relativity Space&nbsp-->
+<!--                        </div>-->
+<!--                        <div class="float-start">-->
+<!--                            <i class="fa fa-check border rounded-pill"></i>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        @relativityspace-->
+<!--                    </div>-->
+<!--                    <div class="col-3">-->
+<!--                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-2">-->
+<!--                        <img src="../../images/vg.svg" width="45px">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <div class="float-start fw-bold">-->
+<!--                            Virgin Galactic&nbsp-->
+<!--                        </div>-->
+<!--                        <div class="float-start">-->
+<!--                            <i class="fa fa-check border rounded-pill"></i>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        @virgingalactic-->
+<!--                    </div>-->
+<!--                    <div class="col-3">-->
+<!--                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-2">-->
+<!--                        <img src="../../images/nasa.webp" width="45px">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <div class="float-start fw-bold">-->
+<!--                            NASA&nbsp-->
+<!--                        </div>-->
+<!--                        <div class="float-start">-->
+<!--                            <i class="fa fa-check border rounded-pill"></i>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        @NASA-->
+<!--                    </div>-->
+<!--                    <div class="col-3">-->
+<!--                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="list-group-item">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-2">-->
+<!--                        <img class="rounded-circle" src="../../images/tesla.jpeg" width="45px">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <div class="float-start fw-bold">-->
+<!--                            Tesla&nbsp-->
+<!--                        </div>-->
+<!--                        <div class="float-start">-->
+<!--                            <i class="fa fa-check border rounded-pill"></i>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        @Tesla-->
+<!--                    </div>-->
+<!--                    <div class="col-3">-->
+<!--                        <button type="submit" class="btn btn-primary rounded-pill mt-1 me-0">Follow</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->

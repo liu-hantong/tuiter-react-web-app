@@ -234,6 +234,7 @@ const init = () => {
     }
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
+    $("H1.hi").remove();
 };
 
 $(init);
