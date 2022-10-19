@@ -25,9 +25,9 @@
 }
 
 .inside {
-    position: relative;
+    position: absolute;
     font-size: 35px;
     color: white;
-    margin-left: 2%;
-    margin-top: -12%;
+    bottom: 10px;
+    left: 10px;
 }

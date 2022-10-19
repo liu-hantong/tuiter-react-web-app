@@ -40,7 +40,7 @@ const ExploreComponent = () => {
                     <a className="nav-link" href="/">Entertainment</a>
                 </li>
             </ul>
-            <div className="mt-2">
+            <div className="position-relative mt-2">
                 <img alt="hello" src="../../../images/spaceship.webp" width="100%"/>
                 <div className="inside">SpaceX's Spaceship</div>
             </div>
