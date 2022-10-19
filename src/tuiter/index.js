@@ -3,9 +3,6 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
 
-import '../vendors/bootswatch/bootstrap.min.css';
-import '../vendors/fap/css/all.css';
-
 function Tuiter() {
     return (
         <div className="row mt-2">
