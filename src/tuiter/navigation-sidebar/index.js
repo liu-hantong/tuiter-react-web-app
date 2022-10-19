@@ -22,7 +22,7 @@ const NavigationSidebar = () => {
             <Link to="/"
                   className={`list-group-item list-group-item-action ${active === 'lab' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-running"></i></div>
-                <div className="d-none float-start d-xl-block">&nbsp;Lab</div>
+                <div className="d-none float-start d-xl-block">&nbsp;Labs</div>
             </Link>
             <a href="/"
                className={`list-group-item list-group-item-action ${active === 'notifications' ? "active" : ""}`}>
