@@ -1,21 +1,29 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
 
-const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+const NavigationSidebar = () => {
+    const {pathname} = useLocation();
+    const paths = pathname.split('/')
+    const active = paths[2];
     return (
         <div className="list-group">
             <a className="list-group-item" href="/"><i className="fab fa-twitter"></i></a>
-            <a href="/" className={`list-group-item list-group-item-action ${active === 'home' ? "active" : ""}`}>
+            <Link to="/tuiter/home"
+                  className={`list-group-item list-group-item-action ${active === 'home' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-home"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Home</div>
-            </a>
-            <a href="/" className={`list-group-item list-group-item-action ${active === 'explore' ? "active" : ""}`}>
+            </Link>
+            <Link to="/tuiter/explore"
+                  className={`list-group-item list-group-item-action ${active === 'explore' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-hashtag"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Explore</div>
-            </a>
+            </Link>
+            <Link to="/"
+                  className={`list-group-item list-group-item-action ${active === 'lab' ? "active" : ""}`}>
+                <div className="float-start"><i className="fas fa-running"></i></div>
+                <div className="d-none float-start d-xl-block">&nbsp;Lab</div>
+            </Link>
             <a href="/"
                className={`list-group-item list-group-item-action ${active === 'notifications' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-bell"></i></div>
