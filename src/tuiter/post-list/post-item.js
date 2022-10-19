@@ -5,7 +5,7 @@ const PostItem = ({post}) => {
         <li className="list-group-item border-secondary">
             <div className="row">
                 <div className="col-1">
-                    <img alt="image" className="float-start rounded-circle" src={`../../../images/${post.image}`}
+                    <img className="float-start rounded-circle" src={`../../../images/${post.image}`}
                          width="40px"
                          height="40px"/>
                 </div>
@@ -18,7 +18,7 @@ const PostItem = ({post}) => {
                     <div className="mb-2" style={{fontSize: "15px"}}>{post.content}</div>
                     <div className="row">
                         <div className="col">
-                            <img alt="image" src={`../../../images/${post.image}`} width="100%" height="100%"
+                            <img src={`../../../images/${post.image}`} width="100%" height="100%"
                                  className={`border border-secondary ${post.title ? 'rounded-top' : 'rounded'}`}/>
                         </div>
                         {post.title &&
