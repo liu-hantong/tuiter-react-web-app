@@ -14,7 +14,8 @@ const PostSummaryItem = ({post}) => {
                     {post.tweets ? <div className="text-muted"> {post.tweets} Tweets </div> : ''}
                 </div>
                 <div className="col">
-                    <img className="float-end" src={`../../../images/${post.image}`} width="130" height="120"/>
+                    <img alt="good" className="float-end" src={`../../../images/${post.image}`} width="130"
+                         height="120"/>
                 </div>
             </div>
         </li>
