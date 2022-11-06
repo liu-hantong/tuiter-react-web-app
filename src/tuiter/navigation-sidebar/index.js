@@ -4,8 +4,14 @@ import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
-    const paths = pathname.split('/')
-    const active = paths[2];
+    const paths = pathname.split('/');
+    let active = 'home';
+    if (paths.length == 3) {
+        active = paths[2];
+        if (active === 'edit-profile') {
+            active = "profile";
+        }
+    }
     return (
         <div className="list-group">
             <a className="list-group-item" href="/"><i className="fab fa-twitter"></i></a>
@@ -29,11 +35,13 @@ const NavigationSidebar = () => {
                 <div className="float-start"><i className="fas fa-bell"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Notifications</div>
             </a>
-            <a href="/" className={`list-group-item list-group-item-action ${active === 'messages' ? "active" : ""}`}>
+            <a href="/"
+               className={`list-group-item list-group-item-action ${active === 'messages' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-envelope"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Messages</div>
             </a>
-            <a href="/" className={`list-group-item list-group-item-action ${active === 'bookmarks' ? "active" : ""}`}>
+            <a href="/"
+               className={`list-group-item list-group-item-action ${active === 'bookmarks' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-bookmark"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Bookmarks</div>
             </a>
@@ -41,7 +49,8 @@ const NavigationSidebar = () => {
                 <div className="float-start"><i className="fas fa-list"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Lists</div>
             </a>
-            <a href="/" className={`list-group-item list-group-item-action ${active === 'profile' ? "active" : ""}`}>
+            <a href="/tuiter/profile"
+               className={`list-group-item list-group-item-action ${active === 'profile' ? "active" : ""}`}>
                 <div className="float-start"><i className="fas fa-user"></i></div>
                 <div className="d-none float-start d-xl-block">&nbsp;Profile</div>
             </a>
