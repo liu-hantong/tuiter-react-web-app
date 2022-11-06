@@ -6,7 +6,7 @@ const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/');
     let active = 'home';
-    if (paths.length == 3) {
+    if (paths.length === 3) {
         active = paths[2];
         if (active === 'edit-profile') {
             active = "profile";

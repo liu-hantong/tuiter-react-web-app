@@ -15,8 +15,9 @@ const Profile = () => {
                     <div className="text-dark position-absolute" style={{top: "25px"}}>6,114 Tweets</div>
                 </div>
             </div>
-            <img width="100%" height="200px" src={`/images/${profile.bannerPicture}`}/>
-            <div className="float-left" style={{position: "relative"}}><img className="rounded-circle" width="120px"
+            <img alt="" width="100%" height="200px" src={`/images/${profile.bannerPicture}`}/>
+            <div className="float-left" style={{position: "relative"}}><img alt="" className="rounded-circle"
+                                                                            width="120px"
                                                                             src={`/images/${profile.profilePicture}`}
                                                                             style={{
                                                                                 position: "absolute",
