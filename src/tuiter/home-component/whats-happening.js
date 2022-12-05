@@ -19,6 +19,7 @@ const WhatsHappening = () => {
             image: "nodejs.png",
             time: "now",
             userName: "me",
+            topic: "This Is Me"
         }
         dispatch(createTuitThunk(newTuit));
     }
